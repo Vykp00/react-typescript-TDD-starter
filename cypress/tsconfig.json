@@ -1,10 +1,16 @@
 {
-  "extends": "./tsconfig.json",
+  "extends": "../tsconfig.json",
   "compilerOptions": {
     "target": "es2016",
     "lib": ["es2016", "dom"],
     "types": ["cypress", "node"],
     "noEmit": true
   },
-  "include": ["**/*.ts", "e2e/smoke.test.tsx", "**/*.ts", "../cypress.d.ts"]
+  "include": [
+    "**/*.ts",
+    "e2e/smoke.test.tsx",
+    "../node_modules/cypress",
+    "./**/*.ts",
+    "../cypress.d.ts"
+  ]
 }

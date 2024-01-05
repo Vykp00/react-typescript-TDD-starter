@@ -31,7 +31,7 @@ module.exports = {
   rules: {
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'error',
-    // to enforce using type for object type definitions, can be type or interface. Set it to "off" if you need to
-    '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+    // to enforce using type for object type definitions, can be type or interface. Set it to "off" or ['error', 'type'] if you need to
+    '@typescript-eslint/consistent-type-definitions': 'off',
   },
 }
