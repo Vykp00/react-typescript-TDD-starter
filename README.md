@@ -1,7 +1,8 @@
 # REACT-TYPESCRIPT-TDD-STARTER
 This is a template to for React TypeScript app with TDD principles
-Unit Testing / Component Test: Jest
-End-2-End Testing: Cypress
+
+* Unit Testing / Component Test: Jest
+* End-2-End Testing: Cypress
 
 ## Getting Started with Create React App
 
